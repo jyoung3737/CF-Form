@@ -3,17 +3,14 @@ body {
 }
 div {
     padding: 10px;
-}
-span{
-    display: none;
-}
-.warning{
+    border-radius: 5px;
+}                                                                                                                                                                                                                               
+.warning {
     color:red;
 }
 input, textarea, select{
-    height:30px;
     border-radius: 5px;
-    padding: 5px 10px;
+    padding: 10px;
     width: 350px;
 }
 select{
@@ -22,11 +19,20 @@ select{
 textarea{
     height: 150px;
 }
-#submit{
+#submit {
     width: 100px;
-    background-color: chartreuse;
+    position: absolute;
+    right: 15px;   
+}
+#submit:hover {
+    background-color: #000;
+    color: #FFF;
 }
 .container{
     background-color: #EFEFEF;
     width: 400px;
+}
+#button-container {
+    position: relative;
+    height: 50px;
 }

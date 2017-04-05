@@ -11,31 +11,30 @@
         <div class="container">
             <div class="form">
             <h1>It's a Form!</h1>
-                <form action="action.cfm" method="post" name="myform" id="form">
                     <p>
                         <label>First Name:</label><br />
-                        <input type="text" name="firstName" id="first-name"  placeholder="Enter Your First Name">
+                        <cfinput type="text" name="firstName" id="first-name"  placeholder="Enter Your First Name" message = "Please enter your first name">
                     </p>
                     <p>
                         <label>Last Name:</label><br />
-                        <input type="text" name="lastName" id="last-name" placeholder="Enter Your Last Name">
+                        <cfinput type="text" name="lastName" id="last-name" placeholder="Enter Your Last Name">
                     </p>
                     <p>
                         <label>Email:</label><br />
-                        <input type="text" name="email" id="email" placeholder="Enter Your Email">
+                        <cfinput type="text" name="email" id="email" placeholder="Enter Your Email">
                     </p>
                     <p>
                         <label for="messageType">Issue Type:</label><br />
-                        <select name="issueType" id="select-issue">
+                        <cfselect name="issueType" id="select-issue" message = "Select an issue type" >
                             <option value="">Select and Issue Type...</option>
                             <option value="Bad Hair Day">Bad Hair Day</option>
                             <option value="I'm Hungry">I'm Hungry</option>
                             <option value="What is that Smell?">What is that Smell?</option>
-                        </select>
+                        </cfselect>
                     </p>
-                    <p><label>Message (Optional):</label><br /><textarea name="message" placeholder="Please enter you message here." id="message"></textarea></p>
-                    <p><input type="submit" value="Submit" id="submit"></p>
-                </form> 
+                    <p><label>Message (Optional):</label><br /><cftextarea name="message" placeholder="Please enter you message here." id="message"></cftextarea></p>
+                    <div id="button-container"><input type="submit" value="Submit" id="submit"></div>
+                </cfform> 
             </div>
         </div>
     </body> 
