@@ -1,0 +1,29 @@
+body {
+    font-family: arial;
+}
+div {
+    padding: 10px;
+}
+span{
+    display: none;
+}
+.warning{
+    color:red;
+}
+input, textarea{
+    height:30px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 350px;
+}
+textarea{
+    height: 150px;
+}
+#submit{
+    width: 100px;
+    background-color: chartreuse;
+}
+.container{
+    background-color: #EFEFEF;
+    width: 400px;
+}
