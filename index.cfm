@@ -2,7 +2,7 @@
 <html lang="en">
     <head> 
         <meta http-equiv="content-type" content="text/html; charset=utf-8"> 
-        <title>Title Goes Here</title>
+        <title>My Form!</title>
         <link rel="stylesheet" type="text/css" href="css/styles.css">
         <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
         <script src="js/custom.js"></script>
