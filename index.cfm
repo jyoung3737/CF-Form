@@ -22,7 +22,7 @@
                     </p>
                     <p>
                         <label>Email:</label><br />
-                        <input type="text" name="email" id="email" placeholder="Email">
+                        <input type="text" name="email" id="email" placeholder="Enter Your Email">
                     </p>
                     <p>
                         <label for="messageType">Issue Type:</label><br />
@@ -33,7 +33,7 @@
                             <option value="What is that Smell?">What is that Smell?</option>
                         </select>
                     </p>
-                    <p><label>Message:</label><br /><textarea name="message" placeholder="Please enter you message here." id="message"></textarea></p>
+                    <p><label>Message (Optional):</label><br /><textarea name="message" placeholder="Please enter you message here." id="message"></textarea></p>
                     <p><input type="submit" value="Submit" id="submit"></p>
                 </form> 
             </div>

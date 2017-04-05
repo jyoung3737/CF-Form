@@ -9,18 +9,19 @@
     </head> 
     <body>
         
-    <cfparam name="FORM.firstname" default="">
-    <cfparam name="FORM.lastname" default="">
-    <cfparam name="FORM.email" default="">
-    <cfparam name="FORM.password" default="">
+    <cfparam name="FORM.firstname">
+    <cfparam name="FORM.lastname">
+    <cfparam name="FORM.email">
+    <cfparam name="FORM.issueType">
         
     <div class="container">
         <h1>The Form Results!</h1>
         <cfoutput>
             <div>
-                <p><strong>User's Name:</strong>#FORM.firstname# #FORM.lastname#</p>
-                <p><strong>User's Email</strong>#FORM.email#</p>
-                <p><strong>Message</strong>#FORM.message#</p>
+                <p><strong>User's Name: </strong>#FORM.firstname# #FORM.lastname#</p>
+                <p><strong>User's Email: </strong>#FORM.email#</p>
+                <p><strong>User's Issue Type: </strong>#FORM.issueType#</p>
+                <p><strong>Message: </strong>#FORM.message#</p>
             </div>
         </cfoutput>
     </div>
