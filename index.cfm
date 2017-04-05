@@ -9,20 +9,20 @@
     </head> 
     <body> 
         <div class="container">
-            <div class="form">
+            <div>
             <h1>It's a Form!</h1>
                 <cfform action="Form_Action.cfm" method="post" name="myform" id="form">
                     <p>
                         <label>First Name:</label><br />
-                        <cfinput type="text" name="firstName" id="first-name"  placeholder="Enter Your First Name" message = "Please enter your first name">
+                        <cfinput type="text" name="firstName"  placeholder="Enter Your First Name" message = "Please enter your first name">
                     </p>
                     <p>
                         <label>Last Name:</label><br />
-                        <cfinput type="text" name="lastName" id="last-name" placeholder="Enter Your Last Name">
+                        <cfinput type="text" name="lastName" placeholder="Enter Your Last Name">
                     </p>
                     <p>
                         <label>Email:</label><br />
-                        <cfinput type="text" name="email" id="email" placeholder="Enter Your Email">
+                        <cfinput type="text" name="email" placeholder="Enter Your Email">
                     </p>
                     <p>
                         <label for="messageType">Issue Type:</label><br />
@@ -34,7 +34,7 @@
                         </cfselect>
                     </p>
                     <p><label>Message (Optional):</label><br /><cftextarea name="message" placeholder="Please enter you message here." id="message"></cftextarea></p>
-                    <div id="button-container"><input type="submit" value="Submit" id="submit"></div>
+                    <div id="button-container"><div>Submit when ready: <input type="submit" value="Submit" id="submit"></div></div>
                 </cfform> 
             </div>
         </div>
