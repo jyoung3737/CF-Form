@@ -8,10 +8,19 @@ $(document).ready(function(){
                 event.preventDefault();
              }                            
          });
+        
+        //Make sure the select issue type has been selected
+        if( $("#select-issue").val() == ''){
+            $("#select-issue").parent().addClass('warning');
+            event.preventDefault();    
+        }                            
     });
     
     // If the user enters a value while the warning is up, remove it.
     $( ":input" ).change(function() {
         $(this).parent().removeClass('warning');
+    });
+    $( "#select-issue" ).change(function() {
+        $('#select-issue').parent().removeClass('warning');
     });
 });

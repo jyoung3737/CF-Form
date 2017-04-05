@@ -24,6 +24,15 @@
                         <label>Email:</label><br />
                         <input type="text" name="email" id="email" placeholder="Email">
                     </p>
+                    <p>
+                        <label for="messageType">Issue Type:</label><br />
+                        <select name="issueType" id="select-issue">
+                            <option value="">Select and Issue Type...</option>
+                            <option value="Bad Hair Day">Bad Hair Day</option>
+                            <option value="I'm Hungry">I'm Hungry</option>
+                            <option value="What is that Smell?">What is that Smell?</option>
+                        </select>
+                    </p>
                     <p><label>Message:</label><br /><textarea name="message" placeholder="Please enter you message here." id="message"></textarea></p>
                     <p><input type="submit" value="Submit" id="submit"></p>
                 </form> 

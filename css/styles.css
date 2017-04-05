@@ -10,11 +10,14 @@ span{
 .warning{
     color:red;
 }
-input, textarea{
+input, textarea, select{
     height:30px;
     border-radius: 5px;
     padding: 5px 10px;
     width: 350px;
+}
+select{
+    width:375px;
 }
 textarea{
     height: 150px;
