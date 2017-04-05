@@ -11,6 +11,7 @@
         <div class="container">
             <div class="form">
             <h1>It's a Form!</h1>
+                <cfform action="Form_Action.cfm" method="post" name="myform" id="form">
                     <p>
                         <label>First Name:</label><br />
                         <cfinput type="text" name="firstName" id="first-name"  placeholder="Enter Your First Name" message = "Please enter your first name">
