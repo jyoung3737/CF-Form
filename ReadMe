@@ -41,13 +41,14 @@ h1 {
     color: #000;
 }
 div {
+    padding: 5px;
+}
+#container {
     padding: 20px;
     background-color: #EDEDED;
     border-radius: 5px;
     border-right: 2px solid #CCC;
     border-bottom: 2px solid #CCC;
-}
-#container{
     width: auto;
 }
 .warning{
